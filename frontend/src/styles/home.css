@@ -1,0 +1,16 @@
+.hero_subtitle img{
+    width: 2.3 rem;
+    height: 2.3 rem;
+}
+
+.hero_content h1{
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: black;
+}
+
+.hero_content h1 .highlight{
+    color: #ED7014;
+}

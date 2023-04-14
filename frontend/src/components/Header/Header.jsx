@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Button } from 'reactstrap';
+import { Container, Row, Button} from 'reactstrap';
 import { NavLink, Link } from 'react-router-dom';
 
 import Logo from '../../assets/images/logo.png';
@@ -51,11 +51,11 @@ const Header = () => {
             {/*=============MENU  END============ */}
             <div className='nav_right d-flex align-items-center gap-4'>
               <div className='nav_btns d-flex align-items-center gap-4'>
-                <Button className='btn secondary_btn'>
-                  <Link to={'/login'}>Login</Link>
+                <Button style={{backgroundColor: '#ED7014', borderColor:'#ED7014'}}>
+                  <Link style={{color: 'white', textDecoration:'none'}} to={'/login'} >Login</Link>
                 </Button>
-                <Button className='btn primary_btn'>
-                  <Link to={'/register'}>Register</Link>
+                <Button style={{borderColor: '#ED7014', backgroundColor: 'white'}}>
+                  <Link style={{color: '#ED7014', textDecoration:'none'}} to={'/register'}>Register</Link>
                 </Button>
               </div>
 
