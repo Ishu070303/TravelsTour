@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Island+Moments&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Akaya+Telivigala&family=Cabin:wght@400;500;600&family=IBM+Plex+Sans&family=Noto+Serif&family=Raleway:wght@300&family=Ultra&family=Yuji+Syuku&display=swap');
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 
 :root {
@@ -7,7 +7,7 @@
   --heading-color: #0b2727;
   --text-color: #6e7074;
   --font-name: "Montserrat", sans-serif;
-  --subtitle-font-name: "Cabin", cursive;
+  --subtitle-font-name: 'Akaya Telivigala';
 }
 
 * {
@@ -77,11 +77,10 @@ ul {
   background: var(--secondary-color);
   font-family: var(--subtitle-font-name);
   width: max-content;
-  padding: 0px 0.5rem;
+  padding: 3px 1rem;
   padding-right: 1rem;
-
-  border-radius: 50px;
-  font-weight: 500;
+  border-radius: 20px;
+  font-weight: 200;
   font-size: 1.7rem;
-  color: var(--heading-color);
+  color: white;
 }
