@@ -107,7 +107,7 @@
 
 .masonry-img{
     transition: .3s;
-
+    cursor: pointer;
 }
 
 .masonry-img:hover{
