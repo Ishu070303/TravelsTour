@@ -6,7 +6,9 @@ import heroImg from '../assets/images/hero-img01.jpg';
 import heroImg02 from '../assets/images/hero-img02.jpg';
 import heroVideo from '../assets/images/hero-video.mp4';
 import worldImg from '../assets/images/world.png';
+import experienceImg from '../assets/images/experience.png';
 import Subtitle from '../shared/Subtitle';
+
 import SearchBar from '../shared/SearchBar';
 import ServiceList from '../services/ServiceList';
 import FeaturedTourList from '../components/featured-tours/FeaturedTourList';
@@ -97,27 +99,43 @@ const Home = () => {
           <div className='counter_wrapper d-flex align-items-center gap-5'>
             <div className='counter_box'>
               <span>12k+</span>
-              <h6>Successfull Trip</h6>
+              <h6>Successful Trip</h6>
             </div>
-          </div>
 
-          <div className='counter_box'>
+            <div className='counter_box'>
               <span>2k+</span>
-              <h6>regular Client</h6>
+              <h6>Regular Client</h6>
           </div>
 
           <div className='counter_box'>
               <span>15</span>
               <h6>Years experience</h6>
           </div>
+
+          </div>
         </Col>
         <Col lg='6'>
-
+          <div className="experience_img">
+            <img src={experienceImg} alt='experience-img' />
+          </div>
         </Col>
       </Row>
     </Container>
    </section>
     {/*=====================EXPERIENCED tour section End======================*/}
+    {/*=====================Gallery tour section Start======================*/}
+    <section>
+      <Container>
+        <Row>
+          <Col lg='12'>
+            <Subtitle subtitle={'Gallery'} />
+            <h2 className='gallery_title'>Visit our customers tour gallery</h2>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+
+    {/*=====================Gallery tour section End======================*/}
   </>
 }
 
